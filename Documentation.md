@@ -64,4 +64,11 @@ I decided to look for options to buy and found a good solution: https://www.ikea
 
 The best thing about this lampshade was, that it allowed me to shape it just the way I needed it. I customized it a little by cutting out some layers of paper and glueing it to the right shape.
 
+https://github.com/user-attachments/assets/332b0c2a-3207-4419-baf0-b524dbe92474
+
+Underneath the Lampshade, a little box serves as a stand and and the same time makes space for the arduino and the breadbord. Because of the small weight of the lampshade, it's a pretty solid basis.
+
+![](images/IMG_4.png)
+
+After everything was assembled, I tested several music types and light conditions, to see the effects work inside the lampshade. I once more connected my laptop to the arduino to do a little more finetuning to mainly sharpen the effects.
 
