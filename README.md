@@ -8,4 +8,4 @@ The visual style is intentionally limited to warm tones (orange/yellow core with
 
 The effects are also **fully fine‑tunable in code**: thresholds, responsiveness, smoothing, peak behavior, brightness, and color balance can be adjusted to match different rooms, music styles, and personal taste.
 
-![](images/IMG_5.png)
+![](images/IMG_6.png)
