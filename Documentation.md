@@ -7,8 +7,19 @@
 
 ### Shopping List
 I presented my idea and what materials I wanted to use in my presentation and got good feedback on that, so I ordered the following things:
-- Power Supply + Y-Split Adapter + DC Screw Terminal Adapters to contribute power from one source to both the LED strip and the arduino (see power setuo underneath)
-![Power supply setup](images/power_supply_setup.png)
+- Power Supply + Y-Split Adapter + DC Screw Terminal Adapters to contribute power from one source to both the LED strip and the arduino (see power setup underneath)
+- LED Strip
+- Audio detector with Automatic Gain controll -> in retrospective, the AGC caused a lot of problems, because once music was running, it leveled down the noise and therefore stopped the reaction
+
+**Power Setup**
+
+![](images/IMG_1.png)
+
+### Setup 
+Setting up the technological hardware was pretty simple, because there weren't many components to it. I also was lucky to be able to use my initial setup without having to change a lot during the coding process. I only added more resistors to to the LED strip connection, to prevent voltage spikes caused by irregular power supply. One thing that caused me some troubles, was powering the arduino by the external power source. Because my laptop powered it all throughout the coding process, I only realized after changing the connection, that the new ground/reference conditions and supply stability, affected the signal levels and noise and therefore shifted the thresholds and smoothing behavior.
+
+![](images/IMG_2.png)
+
 ## Coding Process
 
 ### 1. Step: Starting from an inspiration sketch
@@ -42,3 +53,15 @@ I started with a FastLED sound-reactive example (by Rupakpoddar: https://github.
 
 ### 7. Step: Final visual design (ember look + stability)
 The final effect maps the audio energy mainly to **how many LEDs are active** (length of the glow). That active length is additionally smoothed so it doesn’t jitter frame-to-frame. Visually, the active area is rendered as a warm **core** (orange → yellow with loudness) plus a red **shell** for depth, while inactive LEDs blend back to the warm idle tone.
+
+## Building the Lampshade
+
+I quickly realized, that most of the inspiration I collected for the lampshade would be pretty hard and expensive to make by myself. On the other hand, I had a very specific look in my head: it had to be a semi transparent, organic, warm and soft look:
+
+![](images/IMG_3.png)
+
+I decided to look for options to buy and found a good solution: https://www.ikea.com/de/de/p/krusning-haengeleuchtenschirm-weiss-00259914/
+
+The best thing about this lampshade was, that it allowed me to shape it just the way I needed it. I customized it a little by cutting out some layers of paper and glueing it to the right shape.
+
+
